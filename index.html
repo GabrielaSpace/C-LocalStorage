@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>LocalStorage</h1>
+   
+
+    <section >
+        <article class="page" >
+                <form action="#" id ='formulario'>
+                
+                    <h2>Agregar contacto </h2>
+
+
+                    <label for="fname">Name:</label><br>
+                    <input type ="text" id="fname" name="fname" placeholder="Write your name" autofocus autocomplete><br>
+                    <br>
+                    
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email:">
+                    </label><br><br> 
+      
+                    <label for="urlImg">Url:</label><br>
+                    <textarea name="url" id="urlImg" placeholder="url img"></textarea><br>
+      
+                    <label for="message">Message:</label><br>
+                    <textarea name="message"  id='message' placeholder="Write your message"></textarea><br>
+
+                    <button id="submit" type="submit" value="submit"  >Guardar</button>
+                
+                    
+
+                    <br>
+                    
+                </form>
+        </article>
+        <article class="page">
+                    <div id="datos">
+                        <ul id="listadatos">
+            
+                        </ul>
+
+                       <!--  <form action="#" id ='formulario3' method="post">
+                
+                            <input type ="text" id="borrarTodofname" name="fname" placeholder="Write your name" autofocus autocomplete><br>
+                            <br>
+                            
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="borrarTodoemail" name="email" placeholder="Enter your email:">
+                            </label><br><br> 
+            
+                            <label for="urlImg">Url:</label><br>
+                            <textarea name="url" id="borrarTodourlImg" placeholder="url img"></textarea><br>
+            
+                            <label for="message">Message:</label><br>
+                            <textarea name="message"  id='borrarTodomessage' placeholder="Write your message"></textarea><br>
+                            
+        
+                            
+                        </form -->
+                    <button id="borrartodo" type="submit" value="submit" onclick="" >Borrar Todo</button>
+
+                    </div>
+        </article>
+
+        <article class="page">
+            <h2>Eliminar contacto </h2>
+
+            <form action="#" id ='formulario2'>
+                
+                <label for="fname">Name:</label><br>
+                <input type ="text" id="borrarfname" name="fname" placeholder="Write your name" autofocus autocomplete><br>
+                <br>
+                
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="borraremail" name="email" placeholder="Enter your email:">
+                </label><br><br> 
+
+                <label for="urlImg">Url:</label><br>
+                <textarea name="url" id="borrarurlImg" placeholder="url img"></textarea><br>
+
+                <label for="message">Message:</label><br>
+                <textarea name="message"  id='borrarmessage' placeholder="Write your message"></textarea><br>
+
+                <button id="borrarsubmit" type="submit" value="submit"  >Guardar</button>
+                
+           
+            
+                
+            </form>
+          </article>
+
+
+
+        
+
+
+
+    </section>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
